@@ -1,0 +1,18 @@
+import math
+def hasperfect(s=None):
+
+    
+        sr=int(math.sqrt(s))
+        if sr*sr==s:
+            return True
+        else:
+            return False
+        
+hasperfect(4)
+        
+# import re
+# def count_unique(text):
+#     count=0
+#     Text=text.lower()
+#     for word in Text:
+#         if word ==''
